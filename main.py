@@ -31,7 +31,7 @@ def show_channels():
     'label': channel['name'],
     'thumbnail': get_logo(channel['logo']),
     'path': channel['stream_url'],
-    is_playable: True,
+    'is_playable': True,
   } for channel in IRIB_CHANNEL_STREAMS]
   return plugin.finish(items)
 
