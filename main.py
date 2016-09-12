@@ -10,8 +10,10 @@ from xbmcswift2 import Plugin
 IRIB_CHANNEL_STREAMS = (
   {'name': 'IRIB Nasim',
   'logo': 'nasim.png',
-  'stream_url': 'rtmp://live.video.asandl.com/devices//nasim-1000k.stream',
-  })
+  'stream_url': 'http://nasatv-lh.akamaihd.net/i/'
+                       'NASA_101@319270/master.m3u8',
+  },
+)
 
 plugin = Plugin()
 
@@ -40,5 +42,5 @@ def get_logo(logo):
 def log(text):
   plugin.log.info(text)
 
-if __name__ == 'main':
+if __name__ == '__main__':
   plugin.run()
