@@ -9,7 +9,7 @@ from xbmcswift2 import Plugin
 
 IRIB_CHANNEL_STREAMS = (
   {'name': 'IRIB Nasim',
-  'logo': 'nasim.jpg',
+  'logo': 'nasim.png',
   'stream_url': 'rtmp://live.video.asandl.com/devices//nasim-1000k.stream',
   })
 
